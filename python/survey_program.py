@@ -6,8 +6,4 @@ if __name__ == "__main__":
 	main_menu()
 
 
-#hola chabales probando el juego que hice dea#
-#
-# eso es todo chavales
-# cinema
-# ahora con audio chavales
+# este es el launcher recuerden instalar pygame #
