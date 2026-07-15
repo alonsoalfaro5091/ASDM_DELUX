@@ -1,0 +1,11 @@
+import sqlite3
+
+conn = sqlite3.connect('BASE_ASMD.db')
+cursor = conn.cursor()
+
+cursor.execute("DELETE FROM PLAYER")
+
+conn.commit()
+conn.close()
+
+print("All players deleted succesfully.")
